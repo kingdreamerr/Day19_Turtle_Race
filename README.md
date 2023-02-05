@@ -4,30 +4,13 @@ A quiz game built with OOP where the user gets to answer true or false to some q
 
 ## Lessons learned today
 
-- Classes
-```
-class Car:
-```
-- Constructors
-```
-class Car:
-    def __init__(self):
-        pass
-```
+- Event listeners
 
-- Attributes & methods
-```
-class Car:
-    def __init__(self, color):
-        self.color = color
+- state 
 
-    def drive(self):
-        print("Vrooom!)
+- multiple instances
 
-my_car = Car("red")
-my_car.drive()
-
-```
+- high_order functions 
 
 ## Project to solidify material learned 
 
@@ -38,7 +21,10 @@ my_car.drive()
 
 #### Preview:
 
-![quiz game](./quiz.png)
+![shot 1](./shot1.png)
+![shot 2](./sjot2.png)
+![shot 3](./shot4.png)
+
 
 ## How to run this on your device
 
