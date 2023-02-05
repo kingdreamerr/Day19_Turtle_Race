@@ -66,7 +66,6 @@ def create_turtles(bet):
       if colors[i].xcor() > 230:
         end_of_race = True
         winner = colors[i].pencolor()
-        print(winner)
       else:
         random_move(colors[i])
   who_wins(bet=bet,winner=winner)
