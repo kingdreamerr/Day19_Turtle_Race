@@ -1,5 +1,8 @@
 from turtle import Turtle,Screen
 
+# THIS CODE RUNS THE ETCHER GAME UNCOMMENT IT IF YOU WASNT TO SEE THE ETCHER GAME
+
+
 # tim = Turtle()
 # tim.pencolor()
 
@@ -24,6 +27,9 @@ from turtle import Turtle,Screen
 #   tim.penup()
 #   tim.home()
 #   tim.pendown()
+
+# CODE FOR THE TURTLE RACE 
+
 from random import randint
 screen = Screen()
 screen.setup(width=500,height=400)
@@ -64,12 +70,6 @@ def create_turtles(bet):
       else:
         random_move(colors[i])
   who_wins(bet=bet,winner=winner)
-  
-  # for turtle in colors:
-  #   # f"{colors[turtle]}_turtle" = Turtle()
-  #   colors[turtle] = Turtle()
-  #   colors[turtle].color(colors[turtle])
-  #   print("")
 
 create_turtles(bet)
 
